@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>محمد إسلام رمادنة - رحلة التحول</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap');
+        body { font-family: 'Tajawal', sans-serif; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- الواجهة العلوية -->
+    <header class="bg-gradient-to-r from-green-600 to-green-800 text-white py-20 px-4 shadow-lg text-center">
+        <h1 class="text-4xl md:text-5xl font-bold mb-4">محمد إسلام رمادنة</h1>
+        <p class="text-xl md:text-2xl font-light mb-8">من السمنة إلى 90 كيلو في 4 أشهر.. بدون رياضة، بالإرادة فقط!</p>
+        <div class="flex justify-center gap-4">
+            <a href="#" class="px-6 py-2 bg-white/20 rounded-full hover:bg-white/30 transition font-bold">TikTok</a>
+            <a href="#" class="px-6 py-2 bg-white/20 rounded-full hover:bg-white/30 transition font-bold">Instagram</a>
+            <a href="#" class="px-6 py-2 bg-white/20 rounded-full hover:bg-white/30 transition font-bold">Facebook</a>
+        </div>
+    </header>
+
+    <!-- قصة التحول -->
+    <section class="py-16 px-4 max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+        <div>
+            <h2 class="text-3xl font-bold mb-6 text-green-700">قصتي مع نزول الوزن</h2>
+            <p class="text-lg leading-relaxed mb-4">
+                في ظرف 4 أشهر فقط، قدرت نوصل لوزن 90 كيلو بدون ما ندخل للصالة الرياضية. السر كامل كان في المطبخ والإرادة القوية.
+            </p>
+            <p class="text-lg leading-relaxed mb-4">
+                اعتمدت على نظام غذائي نقي، مبني على أكل مفور كيما البطاطا، السبانخ، اللوبيا الخضراء، والسكالوب، وقطعت المشروبات الغازية نهائياً.
+            </p>
+            <div class="flex gap-4 mt-6 text-center">
+                <div class="bg-white p-4 rounded-xl shadow border border-gray-100 flex-1">
+                    <span class="block text-3xl font-bold text-green-600">4</span>
+                    <span class="text-gray-500 font-medium">أشهر التزام</span>
+                </div>
+                <div class="bg-white p-4 rounded-xl shadow border border-gray-100 flex-1">
+                    <span class="block text-3xl font-bold text-green-600">90 Kg</span>
+                    <span class="text-gray-500 font-medium">الوزن المحقق</span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- مساحة الصور -->
+        <div class="grid grid-cols-2 gap-4">
+            <div class="bg-gray-300 aspect-square rounded-2xl flex items-center justify-center text-gray-600 font-bold shadow-inner text-xl">
+                صورة قبل
+            </div>
+            <div class="bg-green-200 aspect-square rounded-2xl flex items-center justify-center text-green-800 font-bold shadow-inner text-xl">
+                صورة بعد
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم الأسئلة -->
+    <section class="bg-white py-16 px-4 border-t border-gray-200">
+        <div class="max-w-4xl mx-auto">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold mb-4">عندك استفسار؟ خليني نعاونك</h2>
+                <p class="text-gray-600">حط سؤالك هنا وراح نجاوبك من خلال تجربتي الشخصية.</p>
+            </div>
+            
+            <!-- فورم طرح السؤال -->
+            <div class="bg-gray-50 p-6 rounded-2xl shadow-sm border border-gray-200 flex flex-col md:flex-row gap-4 mb-12">
+                <input type="text" placeholder="مثال: كيفاش كنت تطيب السكالوب بلا زيت؟" class="flex-1 p-4 rounded-xl border border-gray-300 outline-none focus:border-green-500 text-right">
+                <button onclick="alert('تم إرسال سؤالك بنجاح! سيتم الرد عليه قريباً.')" class="bg-green-600 text-white px-8 py-4 rounded-xl font-bold hover:bg-green-700 transition">
+                    إرسال السؤال
+                </button>
+            </div>
+
+            <!-- أسئلة مجاب عليها -->
+            <div class="space-y-6">
+                <h3 class="text-xl font-bold mb-4 text-green-700">أسئلة المتابعين المجاب عليها:</h3>
+                <div class="bg-gray-50 p-6 rounded-2xl border border-gray-100">
+                    <p class="font-bold text-blue-600 mb-2">سؤال: كيفاش قدرت تحكم في الجوع في الأسابيع الأولى؟</p>
+                    <p class="text-gray-700">إسلام: السر كان في كمية الخضر كيما اللوبيا الخضراء والسبانخ، تعمر البطن ومافيهاش سعرات حرارية طالعة، مع شرب الماء بزاف وتجنب السكر تماماً.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="bg-gray-900 text-gray-400 py-8 text-center">
+        <p>© 2026 محمد إسلام رمادنة - جميع الحقوق محفوظة.</p>
+    </footer>
+
+</body>
+</html>
